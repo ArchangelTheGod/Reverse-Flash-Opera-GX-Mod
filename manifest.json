@@ -1,0 +1,134 @@
+{
+    "name": "Reverse Flash (CW) Mod",
+    "description": "\"YOU LIE, FLASH\"",
+    "developer":
+    {
+        "name": "ArchangelTheGod"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "browser_sounds":
+            {
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sound/f-on-off.wav"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sound/f-on-off.wav"
+                ],
+                "HOVER":
+                [
+                    "sound/Hover.wav"
+                ],
+                "HOVER_UP":
+                [
+                    "sound/Hover.wav"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/f-on-off.wav"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/f-on-off.wav"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/Hover.wav"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/close-tab.wav"
+                ],
+                "TAB_INSERT":
+                [
+                    "sound/open-tab.wav"
+                ],
+                "TAB_SLASH":
+                [
+                    "sound/close-tab.wav"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/Backspace.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/Enter.wav"
+                ],
+                "TYPING_LETTER":
+                [
+                    "keyboard/letter1.wav",
+                    "keyboard/letter2.wav",
+                    "keyboard/letter3.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/Space.wav"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 48,
+                        "s": 92,
+                        "l": 53
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 360,
+                        "s": 100,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 0,
+                        "s": 100,
+                        "l": 37
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 51,
+                        "s": 100,
+                        "l": 88
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/darkmode.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/darkmode.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
